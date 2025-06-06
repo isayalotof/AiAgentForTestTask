@@ -1,0 +1,13 @@
+{
+  "entrypoint": "main.py",
+  "graphs": {
+    "chat": "main:app"
+  },
+  "dependencies": [
+    "langchain",
+    "langchain-openai",
+    "langgraph",
+    "openai"
+  ]
+}
+
